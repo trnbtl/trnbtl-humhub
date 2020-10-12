@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "trnbtl-humhub",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
