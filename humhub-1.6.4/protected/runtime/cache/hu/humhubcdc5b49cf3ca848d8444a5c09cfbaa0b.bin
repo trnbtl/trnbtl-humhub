@@ -1,4 +1,4 @@
-a:2:{i:0;s:1496:"
+a:2:{i:0;s:1488:"
 <a href="/activity/link?id=14">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="17">
         <div class="media">
@@ -13,7 +13,7 @@ a:2:{i:0;s:1496:"
                 <strong>Sara Schuster</strong> wrote a new comment  "Again? 😩"                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020 - 10:28</span></span>            </div>
+                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020</span></span>            </div>
         </div>
     </li>
 </a>

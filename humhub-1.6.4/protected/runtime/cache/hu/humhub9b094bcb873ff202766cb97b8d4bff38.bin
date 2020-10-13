@@ -1,4 +1,4 @@
-a:2:{i:0;s:1523:"
+a:2:{i:0;s:1515:"
 <a href="/activity/link?id=12">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="15">
         <div class="media">
@@ -13,7 +13,7 @@ a:2:{i:0;s:1523:"
                 <strong>David Roberts</strong> wrote a new comment  "Why don&#039;t we go to Bemelmans Bar?"                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020 - 10:28</span></span>            </div>
+                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020</span></span>            </div>
         </div>
     </li>
 </a>

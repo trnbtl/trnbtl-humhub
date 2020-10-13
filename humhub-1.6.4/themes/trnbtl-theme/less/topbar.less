@@ -53,7 +53,11 @@
 }
 
 #topbar-first {
-    background-color: purple;// @primary;
+    // background-color: @primary;
+    background-image: url("../img/schiefer.jpg");
+    background-position-y: center;
+    background-position-x: 50px;
+    background-size: cover;
     top: 0;
     z-index: 1030;
     color: white;
@@ -220,11 +224,12 @@
     }
 
     .btn-group > a {
-        background-color: lighten(@primary, 5%);
+        background-color: transparent;// lighten(@primary, 5%);
     }
-
+    
     .btn-enter {
-        background-color: lighten(@primary, 5%);
+        background-color: transparent;// lighten(@primary, 5%);
+        // background-color: lighten(@primary, 5%);
         margin: 6px 0;
     }
 
@@ -273,7 +278,8 @@
     .dropdown.account.open > a,
     .dropdown.account > a:hover,
     .dropdown.account.open > a:hover {
-        background-color: @primary;
+        // background-color: @primary;
+        background-color: transparent;
     }
 }
 

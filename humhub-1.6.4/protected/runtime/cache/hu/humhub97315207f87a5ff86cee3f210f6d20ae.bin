@@ -1,4 +1,4 @@
-a:2:{i:0;s:1550:"
+a:2:{i:0;s:1542:"
 <a href="/activity/link?id=13">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="16">
         <div class="media">
@@ -13,7 +13,7 @@ a:2:{i:0;s:1550:"
                 <strong>Sara Schuster</strong> answered the Question "Right now, we are in the planning stages for our next meetup...".                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020 - 10:28</span></span>            </div>
+                <span class="time"><span title="9 Oct 2020 - 10:28">9 Oct 2020</span></span>            </div>
         </div>
     </li>
 </a>

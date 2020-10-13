@@ -9,6 +9,7 @@ services:
     volumes:
       # - ./humhub-1.6.4/themes/trnbtl-theme:/var/www/localhost/htdocs/themes/HumHub
       - ./humhub-1.6.4:/var/www/localhost/htdocs
+      # - ./wallEntry.php:/var/www/localhost/htdocs/protected/modules/calendar/widgets/views/wallEntry.php
     environment:
       HUMHUB_DB_USER: humhub
       HUMHUB_DB_PASSWORD: humhub

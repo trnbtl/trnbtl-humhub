@@ -1,11 +1,10 @@
-a:2:{i:0;s:1539:"
+a:2:{i:0;s:1026:"
 <a href="/activity/link?id=9">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="11">
         <div class="media">
                             <!-- Show user image -->
                 <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/9f7177d5-e463-4a23-a45e-c1f46f1948cc.jpg?m=1602239314" width="32" alt="Profilbild von Sara Schuster" style="width: 32px; height: 32px" data-contentcontainer-id="4"></span>            
             <!-- Show space image, if you are outside from a space -->
-                                                <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;" data-contentcontainer-id="2">WS</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/static/img/default_space.jpg" alt="Welcome Space" style=" width: 20px; height: 20px" data-contentcontainer-id="2">                
             
             <div class="media-body text-break">
 
@@ -13,7 +12,7 @@ a:2:{i:0;s:1539:"
                 <strong>Sara Schuster</strong> gefällt Beitrag "We&#039;re looking for great slogans of famous brands. Maybe..."                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="09.10.2020 - 10:28">09.10.2020 - 10:28</span></span>            </div>
+                <span class="time"><span title="09.10.2020 - 10:28">09.10.2020</span></span>            </div>
         </div>
     </li>
 </a>
