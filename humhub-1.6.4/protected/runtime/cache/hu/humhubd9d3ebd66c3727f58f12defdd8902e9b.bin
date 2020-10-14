@@ -1,11 +1,9 @@
-a:2:{i:0;s:1026:"
+a:2:{i:0;s:942:"
 <a href="/activity/link?id=9">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="11">
         <div class="media">
                             <!-- Show user image -->
                 <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/9f7177d5-e463-4a23-a45e-c1f46f1948cc.jpg?m=1602239314" width="32" alt="Profilbild von Sara Schuster" style="width: 32px; height: 32px" data-contentcontainer-id="4"></span>            
-            <!-- Show space image, if you are outside from a space -->
-            
             <div class="media-body text-break">
 
                 <!-- Show content -->

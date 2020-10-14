@@ -1,12 +1,9 @@
-a:2:{i:0;s:1522:"
+a:2:{i:0;s:933:"
 <a href="/activity/link?id=63">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="94">
         <div class="media">
                             <!-- Show user image -->
                 <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/3634e16f-4e0c-4d68-9cd6-1ecae26c1676.jpg?m=1602439889" width="32" alt="Profile picture of Rich Froning" style="width: 32px; height: 32px" data-contentcontainer-id="5"></span>            
-            <!-- Show space image, if you are outside from a space -->
-                                                <div class="img-space pull-left space-profile-acronym-1 space-acronym" style=" background-color: #6fdbe8; width: 20px; height: 20px; font-size: 8.8px; padding: 3.6px 0; border-radius: 2px;" data-contentcontainer-id="2">WS</div><img class="img-space pull-left space-profile-image-1 img-rounded profile-user-photo hidden" src="/static/img/default_space.jpg" alt="Welcome Space" style=" width: 20px; height: 20px" data-contentcontainer-id="2">                
-            
             <div class="media-body text-break">
 
                 <!-- Show content -->

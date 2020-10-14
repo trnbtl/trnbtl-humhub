@@ -1,0 +1,40 @@
+2020-10-14 00:26:01 [-][-][-][warning][application] Calendar reminder for past event detected with id: 1 reminder not sent and disabled.
+    in /var/www/localhost/htdocs/protected/modules/calendar/models/reminder/ReminderProcessor.php:270
+    in /var/www/localhost/htdocs/protected/modules/calendar/models/reminder/ReminderProcessor.php:202
+    in /var/www/localhost/htdocs/protected/modules/calendar/models/reminder/ReminderProcessor.php:174
+2020-10-14 00:26:01 [-][-][-][info][application] $_GET = []
+
+$_SERVER = [
+    'PHP_UPLOAD_MAX_FILESIZE' => '10M'
+    'USER' => 'nginx'
+    'SUPERVISOR_GROUP_NAME' => 'cron'
+    'HOSTNAME' => 'e8dad0e02a72'
+    'SHLVL' => '2'
+    'OLDPWD' => '/'
+    'HOME' => '/var/lib/nginx'
+    'LOGNAME' => 'nginx'
+    'PHP_POST_MAX_SIZE' => '16M'
+    'PHP_MAX_EXECUTION_TIME' => '60'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_MEMORY_LIMIT' => '1G'
+    'HUMHUB_DB_PASSWORD' => 'humhub'
+    'SUPERVISOR_ENABLED' => '1'
+    'SHELL' => '/bin/ash'
+    'HUMHUB_DB_USER' => 'humhub'
+    'SUPERVISOR_PROCESS_NAME' => 'cron'
+    'PWD' => '/var/lib/nginx'
+    'NGINX_CLIENT_MAX_BODY_SIZE' => '10m'
+    'affinity:container' => '=316b184a0e8db0f70e8436fc0976bca51989b3ba0352a3862f8042aa3748674c'
+    'PHP_SELF' => '/var/www/localhost/htdocs/protected/yii'
+    'SCRIPT_NAME' => '/var/www/localhost/htdocs/protected/yii'
+    'SCRIPT_FILENAME' => '/var/www/localhost/htdocs/protected/yii'
+    'PATH_TRANSLATED' => '/var/www/localhost/htdocs/protected/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1602635161.3332
+    'REQUEST_TIME' => 1602635161
+    'argv' => [
+        0 => '/var/www/localhost/htdocs/protected/yii'
+        1 => 'cron/run'
+    ]
+    'argc' => 2
+]

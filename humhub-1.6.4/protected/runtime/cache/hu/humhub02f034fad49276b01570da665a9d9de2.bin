@@ -1,11 +1,9 @@
-a:2:{i:0;s:1037:"
+a:2:{i:0;s:953:"
 <a href="/activity/link?id=11">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="14">
         <div class="media">
                             <!-- Show user image -->
                 <span class="pull-left"><img class="media-object img-rounded" src="/uploads/profile_image/59a432a9-7a18-443c-bc09-9313575fc6b1.jpg?m=1602239314" width="32" alt="Profilbild von David Roberts" style="width: 32px; height: 32px" data-contentcontainer-id="3"></span>            
-            <!-- Show space image, if you are outside from a space -->
-            
             <div class="media-body text-break">
 
                 <!-- Show content -->
