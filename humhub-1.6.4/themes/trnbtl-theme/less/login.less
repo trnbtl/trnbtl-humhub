@@ -1,0 +1,140 @@
+//  
+// Login
+// --------------------------------------------------
+
+.intro {
+  display                : grid;
+  width                  : 100%;
+  height                 : 100vh;
+  padding                : 100px 0 100px 0;
+  text-align             : center;
+  color                  : #fff;
+  background-image       : radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.18)), url('../img/hspu.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size   : cover;
+  -o-background-size     : cover;
+  background-position    : center;
+  background-size        : cover;
+
+  margin-bottom: 5vh;
+
+  .intro-heading {
+    font-size     : 40px;
+    letter-spacing: 10px;
+    border-top    : 2px solid #fff;
+    border-bottom : 2px solid #fff;
+    display       : inline-block;
+    padding-left  : 7px;
+
+    margin        : 0 0 5px;
+    text-transform: uppercase;
+    font-family   : "Exo 2", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight   : 500;
+
+  }
+
+  .intro-text {
+    font-size     : 14px;
+    font-weight   : 400;
+    letter-spacing: 1.1px;
+  }
+
+  .btn-circle {
+    width             : 50px;
+    height            : 50px;
+    margin-top        : 30px;
+    line-height       : 33px;
+    text-align        : center;
+    border            : 2px solid #fff;
+    border-radius     : 100% !important;
+    font-size         : 25px;
+    color             : #fff;
+    background        : 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition   : background .3s ease-in-out;
+    transition        : background .3s ease-in-out;
+  }
+
+  .btn-circle:hover,
+  .btn-circle:focus {
+    outline   : 0;
+    color     : #fff;
+    background: rgba(255, 255, 255, .1);
+  }
+
+  .btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property   : -moz-transform;
+    -moz-transition-duration   : 1s;
+  }
+
+  .btn-circle:hover i.animated {
+    -webkit-animation-name           : pulse;
+    -moz-animation-name              : pulse;
+    -webkit-animation-duration       : 1.5s;
+    -moz-animation-duration          : 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count   : infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function   : linear;
+  }
+
+
+
+}
+
+
+.login-container {
+
+  background-color: @background-color-page;
+  background-image: none;
+  position        : relative;
+  padding-top     : 0px;
+
+  .text {
+    color: @text-color-main;
+    font-size    : 12px;
+    margin-bottom: 15px;
+
+    a {
+      color: @text-color-main;
+      text-decoration: underline;
+    }
+  }
+
+  .panel a {
+    color: @info;
+  }
+
+  h1,
+  h2 {
+    color: #fff !important;
+  }
+
+  .panel {
+    box-shadow        : 0 0 15px #627d92;
+    -moz-box-shadow   : 0 0 15px #627d92;
+    -webkit-box-shadow: 0 0 15px #627d92;
+
+    .panel-heading,
+    .panel-body {
+      padding: 15px;
+    }
+
+    h1,
+    h2 {
+      color: @text-color-main  !important;
+    }
+  }
+
+  select {
+    color: @text-color-highlight;
+  }
+}
+
+#account-login-form {
+  .form-group {
+    margin-bottom: 10px;
+  }
+}

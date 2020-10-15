@@ -1,4 +1,4 @@
-a:2:{i:0;s:905:"
+a:2:{i:0;s:897:"
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="40">
         <div class="media">
                             <!-- Show user image -->
@@ -9,7 +9,7 @@ a:2:{i:0;s:905:"
                 <strong>Daniel Kwittung</strong> hat einen neuen Space »<strong>CompetitionFloor</strong>« erstellt.                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="11.10.2020 - 18:21">11.10.2020 - 18:21</span></span>            </div>
+                <span class="time"><span title="11.10.2020 - 18:21">11.10.2020</span></span>            </div>
         </div>
     </li>
 ";i:1;N;}

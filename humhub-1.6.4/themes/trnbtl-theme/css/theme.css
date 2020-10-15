@@ -5573,6 +5573,116 @@ a.label-warning:hover {
   margin-left: -10px;
   margin-right: -10px;
 }
+.intro {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0 100px 0;
+  text-align: center;
+  color: #fff;
+  background-image: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.18)), url('../img/hspu.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 5vh;
+}
+.intro .intro-heading {
+  font-size: 40px;
+  letter-spacing: 10px;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  display: inline-block;
+  padding-left: 7px;
+  margin: 0 0 5px;
+  text-transform: uppercase;
+  font-family: "Exo 2", Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+.intro .intro-text {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1.1px;
+}
+.intro .btn-circle {
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  line-height: 33px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 100% !important;
+  font-size: 25px;
+  color: #fff;
+  background: 0 0;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.intro .btn-circle:hover,
+.intro .btn-circle:focus {
+  outline: 0;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+.intro .btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.intro .btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+.login-container {
+  background-color: #ededed;
+  background-image: none;
+  position: relative;
+  padding-top: 0px;
+}
+.login-container .text {
+  color: #777;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.login-container .text a {
+  color: #777;
+  text-decoration: underline;
+}
+.login-container .panel a {
+  color: #86090A;
+}
+.login-container h1,
+.login-container h2 {
+  color: #fff !important;
+}
+.login-container .panel {
+  box-shadow: 0 0 15px #627d92;
+  -moz-box-shadow: 0 0 15px #627d92;
+  -webkit-box-shadow: 0 0 15px #627d92;
+}
+.login-container .panel .panel-heading,
+.login-container .panel .panel-body {
+  padding: 15px;
+}
+.login-container .panel h1,
+.login-container .panel h2 {
+  color: #777 !important;
+}
+.login-container select {
+  color: #555;
+}
+#account-login-form .form-group {
+  margin-bottom: 10px;
+}
 /**
  * Define or overwrite your theme selectors within this file.
 **/

@@ -1,4 +1,4 @@
-a:2:{i:0;s:915:"
+a:2:{i:0;s:907:"
 <a href="/activity/link?id=28">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="42">
         <div class="media">
@@ -10,7 +10,7 @@ a:2:{i:0;s:915:"
                 <strong>Daniel Kwittung</strong> hat Beitrag "THIS WILL GO VIRAL" erstellt.                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="11.10.2020 - 18:22">11.10.2020 - 18:22</span></span>            </div>
+                <span class="time"><span title="11.10.2020 - 18:22">11.10.2020</span></span>            </div>
         </div>
     </li>
 </a>

@@ -1,4 +1,4 @@
-a:2:{i:0;s:907:"
+a:2:{i:0;s:899:"
 <a href="/activity/link?id=41">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="64">
         <div class="media">
@@ -10,7 +10,7 @@ a:2:{i:0;s:907:"
                 <strong>Daniel Kwittung</strong> hat Medien "barbell.jpg" erstellt.                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="11.10.2020 - 19:06">11.10.2020 - 19:06</span></span>            </div>
+                <span class="time"><span title="11.10.2020 - 19:06">11.10.2020</span></span>            </div>
         </div>
     </li>
 </a>

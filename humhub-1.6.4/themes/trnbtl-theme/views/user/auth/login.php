@@ -16,23 +16,21 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
 /* @var $invite Invite */
 ?>
 
-<div class="container" style="text-align: center;" id="FLUB">
-    <?= SiteLogo::widget(['place' => 'login']); ?>
-    <br>
-    <br>
-    <br>
-    <span style="width:100px; color:white;">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br />
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit 
-        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-        justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </span>
-    <br>
-    <br>
-    <br>
+<div class="intro">
+    <div class="container" >
+        <div class="intro-heading">TRNBTL</div>
+        <div class="intro-text">auf dich haben wir gewartet</div>
+        <a href="#login-form" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+        </a>
+    </div>
+</div>
+
+<div class="container">
+    
 
     <div class="panel panel-default animated bounceIn" id="login-form"
-         style="max-width: 300px; margin: 0 auto 20px; text-align: left;">
+         style="max-width: 300px; margin: 30px auto 20px; text-align: left;">
 
         <div class="panel-heading"><?= Yii::t('UserModule.auth', '<strong>Please</strong> sign in'); ?></div>
 
@@ -111,14 +109,37 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
     <?php endif; ?>
 
     <?= humhub\widgets\LanguageChooser::widget(); ?>
-</div>
+
+
+    <br>
+    <br>
+    <br>
+    <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br />
+        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit 
+        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
+        justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    </p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 
 <script <?= Html::nonce() ?>>
-    $(function () {
-        // set cursor to login field
+    // $(function () {
+    //     // set cursor to login field
+    //     $('#login_username').focus();
+    // });
+// Smooth Scroll
+    $('a.page-scroll').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top - 20
+        }, 800);
         $('#login_username').focus();
+        return false;
     });
-
     // Shake panel after wrong validation
     <?php if ($model->hasErrors()) { ?>
     $('#login-form').removeClass('bounceIn');

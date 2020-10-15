@@ -1,4 +1,4 @@
-a:2:{i:0;s:920:"
+a:2:{i:0;s:912:"
 <a href="/activity/link?id=20">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="29">
         <div class="media">
@@ -10,7 +10,7 @@ a:2:{i:0;s:920:"
                 <strong>Daniel Kwittung</strong> hat Beitrag "A post to Welcome Space" erstellt.                <br>
 
                 <!-- show time -->
-                <span class="time"><span title="11.10.2020 - 17:26">11.10.2020 - 17:26</span></span>            </div>
+                <span class="time"><span title="11.10.2020 - 17:26">11.10.2020</span></span>            </div>
         </div>
     </li>
 </a>
