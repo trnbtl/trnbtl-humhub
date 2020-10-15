@@ -1,4 +1,4 @@
-a:2:{i:0;s:937:"
+a:2:{i:0;s:943:"
 <a href="/activity/link?id=64">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="95">
         <div class="media">
@@ -10,7 +10,7 @@ a:2:{i:0;s:937:"
                 <strong>Daniel Kwittung</strong> nimmt teil an Termin "GoatDay" on 14. Oktober 2020 - 15. Oktober 2020.                <br>
 
                 <!-- show time -->
-                <span class="time" title="2020-10-13T15:08:19+00:00">13.10.2020 - 15:08</span>            </div>
+                <span class="time"><span title="13.10.2020 - 15:08">13.10.2020 - 15:08</span></span>            </div>
         </div>
     </li>
 </a>

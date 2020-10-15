@@ -20,14 +20,7 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
     <div class="container" >
         <div class="intro-heading">TRNBTL</div>
         <div class="intro-text">auf dich haben wir gewartet</div>
-        <a href="#login-form" class="btn btn-circle page-scroll">
-        <i class="fa fa-angle-double-down animated"></i>
-        </a>
     </div>
-</div>
-
-<div class="container">
-    
 
     <div class="panel panel-default animated bounceIn" id="login-form"
          style="max-width: 300px; margin: 30px auto 20px; text-align: left;">
@@ -75,7 +68,7 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
         </div>
     </div>
 
-    <br>
+    <!-- <br> -->
 
     <?php if ($canRegister) : ?>
         <div id="register-form"
@@ -96,7 +89,7 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
 
                         <?= $form->field($invite, 'captcha')->widget(Captcha::class, [
                             'captchaAction' => 'auth/captcha',
-                        ])->label(false); ?>
+                            ])->label(false); ?>
                     </div>
                 <?php endif; ?>
                 <hr>
@@ -107,25 +100,10 @@ $this->pageTitle = Yii::t('UserModule.auth', 'Login');
         </div>
 
     <?php endif; ?>
-
     <?= humhub\widgets\LanguageChooser::widget(); ?>
 
+</div>
 
-    <br>
-    <br>
-    <br>
-    <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.<br />
-        At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit 
-        amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et 
-        justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-    </p>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 <script <?= Html::nonce() ?>>
     // $(function () {
