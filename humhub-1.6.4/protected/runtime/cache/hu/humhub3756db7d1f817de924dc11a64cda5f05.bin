@@ -1,4 +1,4 @@
-a:2:{i:0;s:938:"
+a:2:{i:0;s:945:"
 <a href="/activity/link?id=57">
     <li class="activity-entry" data-stream-entry data-action-component="activity.ActivityStreamEntry" data-content-key="88">
         <div class="media">
@@ -10,7 +10,7 @@ a:2:{i:0;s:938:"
                 <strong>Rich Froning</strong> might be attending Event "GoatDay" on 14 October 2020 - 15 October 2020.                <br>
 
                 <!-- show time -->
-                <span class="time" title="2020-10-13T14:43:21+00:00">13 Oct 2020 - 14:43</span>            </div>
+                <span class="time"><span title="13 Oct 2020 - 14:43">13 Oct 2020 - 14:43</span></span>            </div>
         </div>
     </li>
 </a>
